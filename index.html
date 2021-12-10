@@ -6,13 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1></h1>
+    <header>
+        <h1></h1>
+    </header>
+<style>
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .image {
+        width: 100px;
+    }
+    .thick-green-border {
+border-width: 10px;
+border-style: solid;
+border-color: green;
+/*border-radius: 10px;*/
+/*border-radius: 50%;*/
+  }
+  .green-background {
+  background-color: green;
+}
+.blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    /*margin: -15px;*/
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .clockwiseNotation {
+    padding: 40px 20px 20px 40px;
+  }
 
+</style>
+<main>
+    <div class="class1 class2">
+        <p>This contains two classes</p>
+        <p>There's no commas when you're applying multiple classes.</p>
+    </div>
     <div>
         <h1>This is a header tag</h1>
         <p>And here is a paragragh tag.</p>
     </div>
+    <div>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Text">
+        <a href="https://www.freecatphotoapp.com">cat photos</a>
+        <a href="footer"></a>
+    </div>
+
+    <div>
+        <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>.</p>
+        <p>Or click here to click a dead link<a href="#" target="_blank">cat photos</a>.</p>
+    </div>
+    <div id="turn and image into a link">
+        <a href="#">
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+            </a>
+    </div>
+    <div>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+          </ul>
+    </div>
+    <div>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>Children</li>
+          <li>Dogs</li>
+          <li>CNN</li>
+        </ol>
+    </div>
+    <div>
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+          </form>    
+    </div>
+</main>
+<footer></footer>
 </body>
+<footer id="footer"></footer>
 </html>
+
+<!--Figure out what to do with these: main, header, footer, nav, video, article, section-->
